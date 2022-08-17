@@ -25,7 +25,7 @@ h1{
 
 .button{
     color: wheat;
-    font-weight: ;
+    font-weight: 700;
     text-decoration: none;
     font-size: 120%;
     background-image: linear-gradient(tomato,orange);
@@ -35,5 +35,28 @@ h1{
 .top-banner{
     background-image: url(media/top-banner.png);
     background-repeat: no-repeat;
+}
 
+.part-2{
+    background-image: url(media/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.half-with-practice{
+    width: 50%;
+    padding: 5%;
+}
+.half-with-practice img{
+    width: 90%;
+}
+
+.button-practice{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 120;
+    color: wheat;
+    background-image: linear-gradient(tomato,orange);
+    padding: 10px 40px;
+    border-radius: 5px;
 }
